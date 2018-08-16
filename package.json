@@ -1,0 +1,28 @@
+{
+  "name": "csv-parser",
+  "version": "1.0.0",
+  "description": "Utility to parse CSV file",
+  "main": "csv-parser.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parse": "node ./csv-parser.js"
+  },
+  "bin": {
+    "csv-parser": "./csv-parser.js"
+  },
+  "keywords": [
+    "csv",
+    "parser"
+  ],
+  "dependencies": {
+    "boxen": "^1.3.0",
+    "chalk": "^2.3.2",
+    "semver": "^5.5.0",
+    "yargs": "^11.0.0"
+  },
+  "author": "Kiran U Shanbhag",
+  "license": "MIT"
+}
